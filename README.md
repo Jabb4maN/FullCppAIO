@@ -39,6 +39,7 @@ This repack provides a comprehensive collection of essential runtimes:
 * **2012:** v11.0.61135.400
 * **2013:** v12.0.40664.0
 * **2022:** The very latest version
+* **2026:** The very latest version
 
 ### Visual Studio 2010 Tools for Office Runtime (x86/x64)
 
@@ -55,4 +56,7 @@ This repack provides a comprehensive collection of essential runtimes:
 
 The Universal CRT is a vital component, seamlessly integrated with the VC++ 2022 redistributable. It's a built-in feature for Windows 10/11. For Windows Vista/7/8/8.1, it's typically delivered via Monthly Quality Rollups, KB3118401, or KB2999226. If you're on Windows XP, it's installed alongside the VC++ 2019 redistributable. Our repack ensures **KB3118401** is installed if UCRT isn't already present.
 
-**Good to know:** The VC++ 2022 runtimes are fully binary compatible with VC++ 2015, 2017, and 2019. This means they cover all applications built with Visual Studio versions from 2015 through 2022.
+**Good to know:** The VC++ 2022 runtimes are fully binary compatible with VC++ 2015, 2017, and 2019. This means they cover all applications built with Visual Studio versions from 2015 through 2022, same as VC++ 2026 runtime, it cover all applications built with vs versions from 2015 to 2026
+
+**warning** the VC++ 2026 runtimes will only support Windows 10/11 and their Windows Server equivalents only
+don't worry, the repack will install the vs 22-26 on the compatible system only
